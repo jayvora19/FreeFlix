@@ -2,7 +2,7 @@ from info import *
 from pyrogram import Client
 from subprocess import Popen
 
-User = Client(session_string=SESSION)
+User = Client(name="user", session_string=SESSION)
 DlBot = Client(name="auto-delete", 
                api_id=API_ID,
                api_hash=API_HASH,           
